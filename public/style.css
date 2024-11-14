@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Plaster&display=swap');
+
+:root {
+    --main-color: #A69CAC;
+    --background-color: #474973;
+    --text-color: #F1DAC4;
+}
+
+body {
+  font-family: 'Plaster', cursive, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: var(--background-color);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--main-color);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  margin: 10px 0 5px;
+  color: var(--text-color);
+}
+
+input {
+  padding: 10px;
+  border: 2px solid var(--text-color);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 10px 20px;
+  border: solid 2px var(--text-color);
+  border-radius: 10px;
+  background-color: var(--main-color);
+  font-family: 'Plaster', cursive, sans-serif;
+  color: var(--text-color);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--background-color);
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: var(--text-color);
+}
+
+#content {
+  margin-top: 0px;
+  text-align: center;
+  background-color: var(--main-color);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#content p {
+  margin: 10px 0;
+  color: var(--text-color);
+}
+
+#content img {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+}
